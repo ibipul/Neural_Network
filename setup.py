@@ -28,3 +28,7 @@ setuptools.setup(
         'dev': ['pytest', 'pytest-cov'],
     },
 )
+
+# Set these inside the venv
+# export PIP_INDEX_URL=https://pypi.org/simple/
+# export PIP_EXTRA_INDEX_URL=""
