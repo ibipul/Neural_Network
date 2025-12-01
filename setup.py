@@ -29,6 +29,18 @@ setuptools.setup(
     },
 )
 
+'''
+1. python3 -m venv .venv (create a venv)
+2. add export PIP_INDEX_URL=https://pypi.org/simple/ to the end of .venv/bin/activate
+3. add export PIP_EXTRA_INDEX_URL="" to the end of .venv/bin/activate
+4. activate venv: source .venv/bin/activate
+5. pip install setuptools pip
+6. pip install -e . #for main set of packages
+6. pip install -e '.[dev]' for dev packages on Zsh, just [dev] on Bash
+7. deactivate
+'''
+
+
 # Set these inside the venv
-# export PIP_INDEX_URL=https://pypi.org/simple/
+# 
 # export PIP_EXTRA_INDEX_URL=""
